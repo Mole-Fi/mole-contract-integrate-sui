@@ -4,10 +4,10 @@
 name = "MoleVault"
 version = "1.0.0"
 # 
-published-at = "0x5ffa69ee4ee14d899dcc750df92de12bad4bacf81efa1ae12ee76406804dda7f"
+published-at = "0x78bf4657eba8b390474715d51dcee7513593cb9db349071653d1f0a6d2c3b294"
 
 [addresses]
-mole_vault = "0x5ffa69ee4ee14d899dcc750df92de12bad4bacf81efa1ae12ee76406804dda7f"
+mole_vault = "0x02f3046dcbbee703e89dfdba5c73846dc0e4d0fbb33c581ab0498faf2db0a78d"
 
 [dependencies]
 Mole = {local = "../mole"}

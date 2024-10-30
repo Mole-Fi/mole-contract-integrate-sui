@@ -420,4 +420,14 @@ module mole_vault::vault {
         abort 0
     }
 
+    // mToken to token
+    public fun magic_share_to_token_amount<CoinType>(vault_info: &VaultInfo<CoinType>, magic_share: u64): u64 {
+        abort 0
+    }
+
+    // token to mToken
+    public fun token_amount_to_magic_share<CoinType>(vault_info: &VaultInfo<CoinType>, token_amount: u64): u64 {
+        abort 0
+    }
+
 }
