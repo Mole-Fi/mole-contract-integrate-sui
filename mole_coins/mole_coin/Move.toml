@@ -1,0 +1,15 @@
+### Testnet integrate
+
+[package]
+name = "MoleCoin"
+version = "1.0.1"
+published-at = "0x54d53067f4a4938424e6e82914b60bfc3be646d4d4b88c93e160a5be86b38195"
+
+[addresses]
+mole_coin = "0x54d53067f4a4938424e6e82914b60bfc3be646d4d4b88c93e160a5be86b38195"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+rev = "testnet-v1.23.1"
+subdir = "crates/sui-framework/packages/sui-framework"
+

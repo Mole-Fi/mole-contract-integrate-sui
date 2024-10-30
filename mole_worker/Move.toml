@@ -1,0 +1,13 @@
+## Testnet integrate
+
+[package]
+name = "MoleWorker"
+version = "0.0.1"
+published-at = "0xf4d9d8459d1ec762d49d84fcda076358501b7d592a9e2f62241b22b54d474c32"
+
+[addresses]
+mole_worker = "0xf4d9d8459d1ec762d49d84fcda076358501b7d592a9e2f62241b22b54d474c32"
+
+[dependencies]
+Mole = {local = "../mole"}
+

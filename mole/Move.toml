@@ -1,0 +1,14 @@
+### testnet integrate 
+[package]
+name = "Mole"
+version = "0.0.2"
+published-at = "0xb8e9292ad9fad6b5bbeacbbb6e6380f14141599ed73b1210b444f77e55fcdec1"
+
+[addresses]
+mole = "0xb8e9292ad9fad6b5bbeacbbb6e6380f14141599ed73b1210b444f77e55fcdec1"
+
+[dependencies]
+MoleCoin = { local = "../mole_coins/mole_coin" }
+MoleFairLaunch = { local = "../mole_coins/mole_fair_launch" }
+SwitchboardStdLib = { local = "../ref/switchboard_std" }
+

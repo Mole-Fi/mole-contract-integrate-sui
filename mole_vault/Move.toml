@@ -1,0 +1,13 @@
+### testnet integrate
+[package]
+name = "MoleVault"
+version = "0.0.1"
+published-at = "0xfb5774861f69bc69fb3502731fa7f64051011258f6b57dca04ea4cd3ef91ba0c"
+
+[addresses]
+mole_vault = "0xfb5774861f69bc69fb3502731fa7f64051011258f6b57dca04ea4cd3ef91ba0c"
+
+[dependencies]
+Mole = {local = "../mole"}
+MoleWorker = {local = "../mole_worker"}
+

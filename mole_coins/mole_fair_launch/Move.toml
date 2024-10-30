@@ -1,0 +1,13 @@
+## testnet integrate
+[package]
+name = "MoleFairLaunch"
+version = "1.0.1"
+published-at = "0x465e313c7031732695abd3a78d60ff150a10181749468f539d487d425da1c243"
+ 
+[addresses]
+mole_fair_launch = "0x465e313c7031732695abd3a78d60ff150a10181749468f539d487d425da1c243"
+ 
+[dependencies]
+MoleCoin = { local = "../mole_coin" }
+
+

@@ -1,0 +1,33 @@
+## testnet integrate
+
+[package]
+name = "SwitchboardStdLib"
+version = "0.0.1"
+published-at = "0x98670585b87e06628ef2d7f7cb1e7bee8ada65b43b82997935225a7e6e21d18e"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet-v1.23.1" }
+MoveStdlib = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/move-stdlib", rev = "testnet-v1.23.1" }
+
+[addresses]
+switchboard_std = "0x98670585b87e06628ef2d7f7cb1e7bee8ada65b43b82997935225a7e6e21d18e"
+std = "0x1"
+sui =  "0x2"
+
+
+
+# ### mainnet 
+# 
+# [package]
+# name = "SwitchboardStdLib"
+# version = "0.0.1"
+# published-at = "0x08d79f4d920b03d88faca1e421af023a87fbb1e4a6fd200248e6e9998d09e470"
+# 
+# [dependencies]
+# Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "ae1212baf8f0837e25926d941db3d26a61c1bea2" }
+# MoveStdlib = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/move-stdlib", rev = "ae1212baf8f0837e25926d941db3d26a61c1bea2" }
+# 
+# [addresses]
+# switchboard_std = "0x08d79f4d920b03d88faca1e421af023a87fbb1e4a6fd200248e6e9998d09e470"
+# std = "0x1"
+# sui =  "0x2"
