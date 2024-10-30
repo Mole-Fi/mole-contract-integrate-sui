@@ -1,0 +1,12 @@
+### mainnet
+
+[package]
+name = "MoleWorker"
+version = "1.0.0"
+published-at = "0x30e7109c6b3b813cd7af2c724183ffc6202958d1baf9744258870a4877d34370"
+
+[addresses]
+mole_worker = "0x30e7109c6b3b813cd7af2c724183ffc6202958d1baf9744258870a4877d34370"
+
+[dependencies]
+Mole = {local = "../mole"}

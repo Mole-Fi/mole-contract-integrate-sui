@@ -1,0 +1,13 @@
+### mainnet
+[package]
+name = "MoleCoin"
+version = "1.0.0"
+published-at = "0x81ab0208cd5b4edb97d655fcb8ca456a078ef05a54c18b104a10e223872cb9cc"
+
+[addresses]
+mole_coin = "0x81ab0208cd5b4edb97d655fcb8ca456a078ef05a54c18b104a10e223872cb9cc"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+rev = "mainnet-v1.23.1"
+subdir = "crates/sui-framework/packages/sui-framework"

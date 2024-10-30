@@ -1,0 +1,11 @@
+### mainnet 
+[package]
+name = "MoleFairLaunch"
+version = "1.0.0"
+published-at = "0x1b089c63a8cfe583ba10a11258d5e83960e76a4c64adb37538cd2ac1546651af"
+
+[addresses]
+mole_fair_launch = "0x1b089c63a8cfe583ba10a11258d5e83960e76a4c64adb37538cd2ac1546651af"
+
+[dependencies]
+MoleCoin = { local = "../mole_coin" }

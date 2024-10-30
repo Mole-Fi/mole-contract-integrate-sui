@@ -1,0 +1,13 @@
+### mainnet 
+[package]
+name = "Mole"
+version = "1.0.0"
+published-at = "0x9ec6f17e19c5e64c8872779a635235497fd6c71f7b5c23b07f652b02a240c84a"
+
+[addresses]
+mole = "0x9ec6f17e19c5e64c8872779a635235497fd6c71f7b5c23b07f652b02a240c84a"
+
+[dependencies]
+MoleCoin = { local = "../mole_coins/mole_coin" }
+MoleFairLaunch = { local = "../mole_coins/mole_fair_launch" }
+SwitchboardStdLib = { local = "../ref/switchboard_std" }
