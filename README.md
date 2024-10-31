@@ -2,16 +2,6 @@
 For Mole SUI contract
 
 
-<div align="center">
-
-![Switchboard Logo](https://github.com/switchboard-xyz/sbv2-core/raw/main/website/static/img/icons/switchboard/avatar.png)
-
-# switchboard-move
-
-> A Move module to interact with Switchboard V2 on Sui Mainnet.
-
-</div>
-
 ## Build
 
 ```bash
