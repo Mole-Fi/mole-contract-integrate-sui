@@ -77,7 +77,7 @@ module mole_vault::vault_config {
     }
 
     public fun get_reserve_pool_bps_scale(): u64 {
-        RESERVE_POOL_BPS_SCALE
+        abort 0
     }
 
     public fun get_kill_bps(
@@ -88,7 +88,7 @@ module mole_vault::vault_config {
     }
 
     public fun get_kill_bps_scale(): u64 {
-        MAX_BPS
+        abort 0
     }
 
     public fun get_max_kill_bps(
@@ -106,7 +106,7 @@ module mole_vault::vault_config {
     }
 
     public fun get_kill_treasury_bps_scale(): u64 {
-        MAX_BPS
+        abort 0
     }
 
     public fun get_treasury_addr(
@@ -178,7 +178,7 @@ module mole_vault::vault_config {
     }
 
     public fun get_kill_factor_scale(): u64 {
-        KILL_FACTOR_SCALE
+        abort 0
     }
 
     public fun get_raw_kill_factor(
