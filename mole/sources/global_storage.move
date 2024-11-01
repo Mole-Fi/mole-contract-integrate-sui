@@ -27,6 +27,10 @@ module mole::global_storage {
         id: UID
     }
 
-
+    public fun borrow_shared<T: store>(
+        storage: &GlobalStorage
+    ): &T {
+        abort 0
+    }
 }
 
