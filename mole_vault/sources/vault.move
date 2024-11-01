@@ -217,6 +217,33 @@ module mole_vault::vault {
        abort 0
     }
 
+    /// called by other contract
+    // Withdraw function for contract to call. For vector
+	// storage: mole::global_storage::GlobalStorage
+	// amount: magic coin vector to withdraw 
+    public fun withdraw_out<CoinType>(
+        storage: &mut GlobalStorage,
+        coin_withdraws: vector<Coin<MagicCoin<CoinType>>>,
+        amount: u64,
+        clock: &Clock,
+        ctx: &mut TxContext
+    ):Coin<CoinType> {
+        abort 0
+    }
+
+    /// called by other contract
+    // Withdraw function for contract to call. For single coin
+	// storage: mole::global_storage::GlobalStorage
+	// share: magic coin to withdraw 
+    public fun withdraw_single_out<CoinType>(
+        storage: &mut GlobalStorage,
+        coin_withdraw: Coin<MagicCoin<CoinType>>,
+        share: u64,
+        clock: &Clock,
+        ctx: &mut TxContext
+    ):Coin<CoinType> {
+        abort 0
+    }
 
     public entry fun withdraw_reserve<CoinType>(
         _: &AdminCap,
