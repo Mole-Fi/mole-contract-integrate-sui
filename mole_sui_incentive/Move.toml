@@ -1,0 +1,13 @@
+## mainnet 
+[package]
+name = "MoleSuiIncentive"
+version = "1.0.0"
+published-at = "0xc4dc6948a7d0a58f32fadd44e45efb201f44383bfab1cb6c48b9c186a92cc762"
+
+[addresses]
+mole_sui_incentive = "0x2f73c04ded344fd4e2530ec8012a7cffdc17cbb049559f3196c030f58c3a0cdd"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+rev = "mainnet-v1.23.1"
+subdir = "crates/sui-framework/packages/sui-framework"
