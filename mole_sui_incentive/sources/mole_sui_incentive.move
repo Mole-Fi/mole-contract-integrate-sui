@@ -157,39 +157,6 @@ module mole_sui_incentive::sui_incentive {
         abort 0
     }
 
-    public fun deposit_with_cap<StakingCoin>(
-        storage: &mut Storage,
-        user_cap: &UserCapability<StakingCoin>,
-        for: address,
-        is_object: bool,
-        coin_staking: Coin<StakingCoin>,
-        clock: &Clock,
-        ctx: &mut TxContext
-    ): Coin<SUI> {
-        abort 0
-    }
-
-    public fun withdraw_with_cap<StakingCoin>(
-        storage: &mut Storage,
-        user_cap: &UserCapability<StakingCoin>,
-        for: address,
-        is_object: bool,
-        amount: u64,
-        clock: &Clock,
-        ctx: &mut TxContext
-    ): (Coin<StakingCoin>, Coin<SUI>) {
-        abort 0
-    }
-
-    public fun harvest_with_cap<StakingCoin>(
-        storage: &mut Storage,
-        user_cap: &UserCapability<StakingCoin>,
-        clock: &Clock,
-        ctx: &mut TxContext
-    ): Coin<SUI> {
-         abort 0
-    }
-
     public fun pending_sui<StakingCoin>(
         storage: &mut Storage,
         user: address,
