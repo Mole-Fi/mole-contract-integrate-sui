@@ -2,9 +2,11 @@
 [package]
 name = "MoleSuiIncentive"
 version = "1.0.0"
-published-at = "0xc4dc6948a7d0a58f32fadd44e45efb201f44383bfab1cb6c48b9c186a92cc762"
+# upgrade version
+published-at = "0x68e3b20ee54523fd47f343c05b6c7427f8e9af345df74180e310c0d6983b56dc"
 
 [addresses]
+# first version
 mole_sui_incentive = "0x2f73c04ded344fd4e2530ec8012a7cffdc17cbb049559f3196c030f58c3a0cdd"
 
 [dependencies.Sui]

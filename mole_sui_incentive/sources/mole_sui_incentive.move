@@ -166,4 +166,64 @@ module mole_sui_incentive::sui_incentive {
          abort 0
     }
 
+    
+    // deposit (staking) mToken etc. can be extended to another kinds of pool.
+    // For other contract to call.
+    // For vector Coin to deposit
+    public fun deposit_in<StakingCoin>(
+        storage: &mut Storage,
+        for: address,
+        coin_stakings: vector<Coin<StakingCoin>>,
+        amount: u64,
+        clock: &Clock,
+        ctx: &mut TxContext
+    ): (Coin<StakingCoin>, Coin<SUI>) {
+        abort 0
+    }
+
+    // for other contract to call
+    // For one Coin, not vector to deposit
+    public fun deposit_single_in<StakingCoin>(
+        storage: &mut Storage,
+        for: address,
+        coin_staking: Coin<StakingCoin>,
+        amount: u64,
+        clock: &Clock,
+        ctx: &mut TxContext
+    ): (Coin<StakingCoin>, Coin<SUI>) {
+        abort 0
+    }
+
+    // For other contract to call
+    public fun withdraw_out<StakingCoin>(
+        storage: &mut Storage,
+        for: address,
+        amount: u64,
+        clock: &Clock,
+        ctx: &mut TxContext
+    ): (Coin<StakingCoin>, Coin<SUI>) {
+        abort 0
+    }
+
+    // For other contract to call
+    // Withdraw all out
+    public fun withdraw_all_out<StakingCoin>(
+        storage: &mut Storage,
+        for: address,
+        clock: &Clock,
+        ctx: &mut TxContext
+    ): (Coin<StakingCoin>, Coin<SUI>) {
+        abort 0
+    }
+
+    // For other contract to call
+    // Harvest the reward
+    public fun harvest_out<StakingCoin>(
+        storage: &mut Storage,
+        clock: &Clock,
+        ctx: &mut TxContext
+    ): Coin<SUI> {
+        abort 0
+    }
+
 }
